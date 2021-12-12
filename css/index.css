@@ -10,8 +10,10 @@
     font-family: 'Lato';
 }
 body{
-    background-color:#000000;
-    color:#FFFFFF;    
+    background-image: url("/images/road.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
 }
 .main-container {
     width:800px;
