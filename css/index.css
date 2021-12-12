@@ -10,9 +10,7 @@
     font-family: 'Lato';
 }
 body{
-   background-image: url('/images/road.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:#000000;
     color:#FFFFFF;    
 }
 .main-container {
