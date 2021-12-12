@@ -10,7 +10,7 @@
     font-family: 'Lato';
 }
 body{
-   background-image: url('/images/road.JPG');
+   background-image: url('../images/road.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color:#FFFFFF;    
@@ -137,8 +137,9 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.76);
    body{
        background-size: cover;
        background-attachment: fixed;
-       background-image: url('/images/road.JPG');
+       background-image: url('/images/road.jpg');
        height:100%;
+       
    }
     .main-container {
         width:310px;

@@ -1,5 +1,3 @@
-// how to calculate days, month and year
-
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const d = new Date();
 let weekDay = weekday[d.getDay()];
@@ -15,7 +13,6 @@ var year = dateObj.getUTCFullYear();
 
 let newdate = day + " " + monthNames[d.getMonth()] + " " + year;
 
-// async function to get data from server
 
 let btn = document.getElementById('search');
 
@@ -102,7 +99,7 @@ btn.onclick = async function getData() {
 
                 //In case of errors, shows 
                 .catch (error =>
-                    alert(error));
+                    alert('Please insert a valid city name!'));
                 
                     
 
