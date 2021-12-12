@@ -102,7 +102,7 @@ btn.onclick = async function getData() {
 
                 //In case of errors, shows 
                 .catch (error =>
-                    alert(error));
+                    alert('Please insert a valid city name'));
                 
                     
 
