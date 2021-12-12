@@ -1,0 +1,205 @@
+/* import google font LATO */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+body{
+   background-image: url('/images/road.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#FFFFFF;    
+}
+.main-container {
+    width:800px;
+    height:600px;
+    margin: 0 auto;
+    position: relative;
+    top:150px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+
+.input-container{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    width:390px;
+    height:50px;
+    margin-bottom: 5px;
+    display: flex;
+    display: -webkit-flex;    
+    border-radius: 15pt;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.76); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.76);
+}
+
+input{
+color:#000000;
+left:10px;
+outline:none;
+border:none;
+background-color: transparent;
+width:300px;
+height:30px;
+top:10px;
+position: relative;
+font-size: 15px;
+
+}
+
+input::placeholder{
+    color:darkgray;
+}
+input:focus{
+    color:#000000;
+}
+
+#search {
+    position: absolute;
+    margin-left:7px;
+    outline: none;
+    border:none;
+    padding: 16px;
+    border-radius: 15pt;
+    background-color: transparent;
+    color:#000000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.data-container{
+    
+    width: 790px;
+    height:350px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    color:#FFFFFF;
+    position: relative;
+    top:100px;
+}
+
+.date-container{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    z-index: 100;
+    width:500px;
+    height: 340px;
+    border-radius: 15pt;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.76); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.76);
+}
+
+#day-of-the-week{
+
+text-align: left;
+
+}
+
+.date, .info {
+    margin-left: 30px;
+    margin-top:30px;
+}
+.info-container{
+    position: relative;
+    left:-10px;
+    width:380px;
+    height:340px;
+    border-radius: 15pt;
+    background-color:rgba(0,0,0,0.4);
+    color:#FFFFFF;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.76); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.76);
+}
+
+#temperature {
+    font-size: 35px;
+}
+
+
+@media only screen and (max-width:415px){
+
+    html{
+        height:120%;
+    }
+   body{
+       background-size: cover;
+       background-attachment: fixed;
+       background-image: url('/images/road.jpg');
+       height:100%;
+       
+       background-color: darkkhaki;
+   }
+    .main-container {
+        width:310px;
+        height:700px;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        position: relative;
+        top:30px;
+        margin-bottom: -20px;
+        
+    }
+
+    .input-container {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        width:150px;
+        margin-left: 10px;
+    }
+
+    input {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    #search{
+        width:100px;
+        position: absolute;
+        left:190px;
+        background-color: #FFFFFF;
+        color:#000000;
+    }
+
+    .data-container{
+        width:300px;
+        height:580px;
+        flex-direction: column;
+        margin: 0 auto;
+        position:relative;
+        top:10px;
+
+    }
+
+    .date-container {
+        width:300px;
+        height:580px;
+    }
+
+    .info-container{
+        position: relative;
+        left:0;
+        top:10px;
+        width:300px;
+        height:430px;
+        
+    }
+.info {
+    position: relative;
+    top:-15px;
+}
+
+}
