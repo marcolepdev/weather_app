@@ -137,7 +137,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.76);
    body{
        background-size: cover;
        background-attachment: fixed;
-       background-image: url('../images/road.jpg');
+       background-image: url('../images/road.JPG');
        height:100%;
        
    }
