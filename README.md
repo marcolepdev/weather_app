@@ -10,7 +10,7 @@
 This is a weather app, that uses a the Openwwather Api to fetch the weather data and show it on the screen
 
 ### App Preview
-![App Preview](../main/images/app-preview.jpg)
+![App Preview](../master/images/app-preview.jpg)
 
 ### Technologies Used
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
